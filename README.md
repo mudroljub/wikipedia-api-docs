@@ -47,14 +47,6 @@ https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=retur
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
 - `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
 
-## GET quotes
-
-GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the domain is different (`wikiquote.org`):
-
-```
-https://en.wikiquote.org/w/api.php?action=query&titles=Zen&prop=extracts|info&inprop=url&redirects=&format=json
-```
-
 ## Search images
 
 GET first 20 image files (`gsrnamespace=6`) from Wikimedia Commons with the term "Belgrade" in the filename (`gsrsearch=intitle:Belgrade`). Requested thumbnail size is 250px (`pithumbsize=250`):
@@ -67,4 +59,12 @@ The previous request without some params:
 
 ```
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
+```
+
+## GET quotes
+
+GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the domain is different (`wikiquote.org`):
+
+```
+https://en.wikiquote.org/w/api.php?action=query&titles=Zen&prop=extracts|info&inprop=url&redirects=&format=json
 ```
