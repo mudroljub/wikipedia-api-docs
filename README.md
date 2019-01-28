@@ -4,7 +4,7 @@ Wikipedia API examples. For advanced use see [Official Mediawiki API documentati
 
 Quick intro: 
 
-- All client requests should contain `&origin=*` (append if missing). 
+- All client requests should contain `&origin=*` because of CORS (append if missing). 
 - Search term is case insensitive.
 - You could request any wiki language you like
 
@@ -53,4 +53,12 @@ GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the
 
 ```
 https://en.wikiquote.org/w/api.php?action=query&titles=Zen&prop=extracts|info&inprop=url&redirects=&format=json
+```
+
+## Search images
+
+GET first 20 images from Wikimedia Commons with the term "Belgrade" in the filename (`gsrsearch=intitle:Belgrade`). Requested thubmnail size is 250px (`pithumbsize=250`):
+
+```
+https://commons.wikimedia.org/w/api.php?prop=pageimages|imageinfo|info|redirects&gsrnamespace=6&pilimit=max&pithumbsize=250&iiprop=extmetadata&iiextmetadatafilter=ImageDescription&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
 ```
