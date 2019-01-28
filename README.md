@@ -2,9 +2,11 @@
 
 Wikipedia API examples. For advanced use see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
 
-Important: All client requests should contain `&origin=*` (append if missing). 
+Quick intro: 
 
-Search term is case insensitive.
+- All client requests should contain `&origin=*` (append if missing). 
+- Search term is case insensitive.
+- You could change to any language you like
 
 ## Get an article
 
