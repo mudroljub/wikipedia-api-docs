@@ -6,7 +6,7 @@ Quick intro:
 
 - All client requests should contain `&origin=*` (append if missing). 
 - Search term is case insensitive.
-- You could change to any language you like
+- You could request any wiki language you like
 
 ## Get an article
 
