@@ -2,7 +2,9 @@
 
 Wikipedia API examples. For advanced use see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
 
-Important: All client requests should contain `&origin=*`. 
+Important: All client requests should contain `&origin=*` (append if missing). 
+
+Search term is case insensitive.
 
 ## Get an article
 
@@ -37,4 +39,9 @@ GET 10 search results with info and page URL:
 ```
 https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade&origin=*
 ```
+
+## Advanced search
+
+- `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
+- `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
 
