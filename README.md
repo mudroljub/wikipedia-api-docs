@@ -10,7 +10,7 @@ GET full Wikipedia article for the requested title (`titles=belgrade`), with ima
 
 ```
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json
-``
+```
 
 ## Search articles
 
@@ -37,4 +37,4 @@ GET 10 search results with info and page URL:
 ```
 https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade&origin=*
 ```
-`
+
