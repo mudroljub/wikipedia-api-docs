@@ -47,7 +47,7 @@ https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=retur
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
 - `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
 
-## GET wiki quotes
+## GET quotes
 
 GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the domain is different (`wikiquote.org`):
 
