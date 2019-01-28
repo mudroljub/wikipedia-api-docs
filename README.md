@@ -1,6 +1,6 @@
 # Wikipedia API docs
 
-Quick Wikipedia API reference. For advanced use see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
+Wikipedia API examples. For advanced use see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
 
 Important: All client requests should contain `&origin=*`. 
 
