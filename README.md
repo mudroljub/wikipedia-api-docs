@@ -4,6 +4,14 @@ Wikipedia API examples. For advanced use see [Official Mediawiki API documentati
 
 Important: All client requests should contain `&origin=*`. 
 
+## Get an article
+
+GET full Wikipedia article for the requested title (`titles=belgrade`), with images and URL (`inprop=url`). Also, follows redirection (`redirects`) if necessary:
+
+```
+https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json
+``
+
 ## Search articles
 
 GET first 10 search results with page title, extract and thumbnail image (`prop=extracts|pageimages`). Article extract is HTML by default:
@@ -29,11 +37,4 @@ GET 10 search results with info and page URL:
 ```
 https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade&origin=*
 ```
-
-## Get an article
-
-GET full Wikipedia article for the requested title (`titles=belgrade`), with images and URL (`inprop=url`). Also, follows redirection (`redirects`) if necessary:
-
-```
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json
-```
+`
