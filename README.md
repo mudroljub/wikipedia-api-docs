@@ -17,7 +17,7 @@ https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url
 GET first 10 search results (`gsrlimit`) with page title, info and thumbnail image (`prop=extracts|pageimages`):
 
 ```
-https://en.wikipedia.org/w/api.php?generator=search&gsrlimit=10&prop=pageimages|extracts&exintro&explaintext&format=json&origin=*&action=query&gsrsearch=belgrade
+https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrlimit=10&prop=pageimages|extracts&exintro&explaintext&format=json&origin=*&gsrsearch=belgrade
 ```
 
 Alternative way: GET 10 search results with info and page URL:
