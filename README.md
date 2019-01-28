@@ -13,7 +13,13 @@ Quick intro:
 GET full article for the requested title (`titles=belgrade`), with images and URL (`inprop=url`). Also, follows redirection (`redirects`) if necessary:
 
 ```
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json
+https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json&origin=*
+```
+
+Previous request with minimal params:
+
+```
+https://en.wikipedia.org/w/api.php?action=query&titles=Dada&prop=extracts&format=json
 ```
 
 ## Search articles
@@ -55,7 +61,7 @@ GET first 20 image files (`gsrnamespace=6`) from Wikimedia Commons with the term
 https://commons.wikimedia.org/w/api.php?prop=pageimages|imageinfo|info|redirects&gsrnamespace=6&pilimit=max&pithumbsize=250&iiprop=extmetadata&iiextmetadatafilter=ImageDescription&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
 ```
 
-The previous request without some params:
+Previous request without some params:
 
 ```
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
