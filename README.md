@@ -42,7 +42,7 @@ GET 10 search results with info and page URL:
 https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade&origin=*
 ```
 
-## Advanced search
+### Advanced search params
 
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
 - `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
