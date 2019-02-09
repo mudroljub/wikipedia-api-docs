@@ -13,13 +13,13 @@ Quick intro:
 GET full article for the requested title (`titles=belgrade`), with images and URL (`inprop=url`). Also, follows redirection (`redirects`) if necessary:
 
 ```
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json&origin=*
+https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=extracts|pageimages|info&pithumbsize=400&inprop=url&redirects=&format=json&origin=*
 ```
 
 Previous request with minimal params:
 
 ```
-https://en.wikipedia.org/w/api.php?action=query&titles=Dada&prop=extracts&format=json
+https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=extracts&format=json
 ```
 
 ## Search articles
