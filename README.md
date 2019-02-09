@@ -4,7 +4,7 @@ Wikipedia API examples. For advanced use see [Official Mediawiki API documentati
 
 Quick intro: 
 
-- All client requests should contain `&origin=*` because of CORS (append if missing). 
+- All client requests should contain `&origin=*` because of CORS. 
 - Search term is case insensitive.
 - You could request any wiki language you like
 
