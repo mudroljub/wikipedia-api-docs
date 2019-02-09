@@ -5,7 +5,7 @@ Wikipedia API examples. For advanced use see [Official Mediawiki API documentati
 Quick intro: 
 
 - All client requests should contain `&origin=*` because of CORS. 
-- Search term is case insensitive.
+- Search term should be capitalize (`Tori Amos` not `tori amos`) if multiple words.
 - You could request any wiki language you like
 
 ## Get an article
