@@ -22,6 +22,12 @@ Previous request with minimal params:
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json
 ```
 
+To get all images from the article:
+
+```
+https://en.wikipedia.org/w/api.php?action=query&titles=Albert_Einstein&prop=images&format=json
+```
+
 ## Search articles
 
 GET first 10 search results with page title, extract and thumbnail image (`prop=extracts|pageimages`). Article extract is HTML by default:
