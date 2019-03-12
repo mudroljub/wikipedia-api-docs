@@ -25,7 +25,7 @@ https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&fo
 To get all images from the article:
 
 ```
-https://en.wikipedia.org/w/api.php?action=query&titles=Albert_Einstein&prop=images&format=json
+https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
 ```
 
 ## Search articles
