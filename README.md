@@ -45,17 +45,17 @@ https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=retur
 
 ## Images
 
-### GET all images from the article
-
-To get all images from the article:
-
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
-
 ### GET main image
 
 To get source of the main image of the article:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250
+
+### GET all images from the article
+
+To get all images from the article:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
 
 ### Search images
 
