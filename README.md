@@ -22,7 +22,7 @@ https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&fo
 
 ### Search articles
 
-To GET first 10 search results with page title, extract and thumbnail image (`prop=extracts|pageimages`). Article extract is HTML by default:
+To GET first 10 search results with extract and thumbnail image (`prop=extracts|pageimages`). Results is HTML by default, but we want `json` format:
 
 https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=belgrade&exintro=&prop=extracts|pageimages&format=json
 
