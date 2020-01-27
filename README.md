@@ -8,7 +8,9 @@ Quick intro:
 - Search term should be capitalize (`Tori Amos` not `tori amos`) if multiple words.
 - You could request any wiki language you like
 
-## Get an article
+## Articles
+
+### Get an article
 
 To GET full article for the requested title (`titles=belgrade`), with images and URL (`inprop=url`). Also, follows redirection (`redirects`) if necessary:
 
@@ -18,11 +20,7 @@ Previous request with minimal params:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json
 
-To get all images from the article:
-
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
-
-## Search articles
+### Search articles
 
 To GET first 10 search results with page title, extract and thumbnail image (`prop=extracts|pageimages`). Article extract is HTML by default:
 
@@ -40,12 +38,26 @@ To GET 10 search results with info and page URL:
 
 https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade
 
-### Advanced search params
+#### Advanced search params
 
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
 - `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
 
-## Search images
+## Images
+
+### GET all images from the article
+
+To get all images from the article:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
+
+### GET main image
+
+To get source of the main image of the article:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250
+
+### Search images
 
 To GET first 20 image files (`gsrnamespace=6`) from Wikimedia Commons with the term "Belgrade" in the filename (`gsrsearch=intitle:Belgrade`). Requested thumbnail size is 250px (`pithumbsize=250`):
 
@@ -54,12 +66,6 @@ https://commons.wikimedia.org/w/api.php?prop=pageimages|imageinfo|info|redirects
 Previous request without some params:
 
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
-
-## GET main image
-
-To get source of the main image of the article:
-
-https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250
 
 If you have problems, append `&origin=*` at the end of the route.
 
