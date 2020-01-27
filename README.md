@@ -55,7 +55,7 @@ Previous request without some params:
 
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
 
-## GET image
+## GET main image
 
 To get source of the main image of the article:
 
