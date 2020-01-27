@@ -49,34 +49,24 @@ https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=retur
 
 To GET first 20 image files (`gsrnamespace=6`) from Wikimedia Commons with the term "Belgrade" in the filename (`gsrsearch=intitle:Belgrade`). Requested thumbnail size is 250px (`pithumbsize=250`):
 
-```
 https://commons.wikimedia.org/w/api.php?prop=pageimages|imageinfo|info|redirects&gsrnamespace=6&pilimit=max&pithumbsize=250&iiprop=extmetadata&iiextmetadatafilter=ImageDescription&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
-```
 
 Previous request without some params:
 
-```
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
-```
 
 ## GET image
 
 To get source of the main image of the article:
 
-```
 https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250
-```
 
 If you have problems, append `origin=*` at the end of the route:
 
-```
-https://sh.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250&origin=*
-```
+https://sh.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&origin=*&pithumbsize=250
 
 ## GET quotes
 
 To GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the domain is different (`wikiquote.org`):
 
-```
 https://en.wikiquote.org/w/api.php?action=query&titles=Zen&prop=extracts|info&inprop=url&redirects=&format=json
-```
