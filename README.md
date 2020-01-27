@@ -34,10 +34,6 @@ To GET first 20 search results (`gsrlimit`) with extract and thumbnail image (`p
 
 https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrlimit=20&prop=pageimages|extracts&exintro&explaintext&exlimit=max&format=json&gsrsearch=belgrade
 
-To GET 10 search results just with info and page URL:
-
-https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=belgrade
-
 **Advanced search params:**
 
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
