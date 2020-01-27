@@ -63,7 +63,7 @@ Previous request without some params:
 
 https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamespace=6&pithumbsize=250&action=query&inprop=url&redirects=&format=json&generator=search&gsrsearch=intitle:Belgrade&gsrlimit=20
 
-If you have problems, append `&origin=*` at the end of the route.
+Remember, if you have problems, append `&origin=*` at the end of the route.
 
 ## Quotes
 
