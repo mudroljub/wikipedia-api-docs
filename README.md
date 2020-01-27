@@ -16,15 +16,11 @@ https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts|pa
 
 Previous request with minimal params:
 
-```
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json
-```
 
 To get all images from the article:
 
-```
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json
-```
 
 ## Search articles
 
