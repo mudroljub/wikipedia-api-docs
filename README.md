@@ -61,9 +61,7 @@ To get source of the main image of the article:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&pithumbsize=250
 
-If you have problems, append `origin=*` at the end of the route:
-
-https://sh.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=pageimages&format=json&origin=*&pithumbsize=250
+If you have problems, append `&origin=*` at the end of the route.
 
 ## GET quotes
 
