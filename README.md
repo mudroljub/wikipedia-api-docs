@@ -69,7 +69,7 @@ https://commons.wikimedia.org/w/api.php?prop=pageimages|info|redirects&gsrnamesp
 
 If you have problems, append `&origin=*` at the end of the route.
 
-## GET quotes
+## Quotes
 
 To GET wiki quotes for requested term (`titles=Zen`). The API is the same, just the domain is different (`wikiquote.org`):
 
