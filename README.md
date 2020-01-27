@@ -39,6 +39,8 @@ https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrlimit=20&pro
 - `gsrsearch=intitle:belgrade` (word "belgrade" is in title)
 - `gsrsearch=prefix:belgrade` (article's title starts with the word "belgrade")
 
+If you have problems, append `&origin=*` at the end of the route.
+
 ## Images
 
 ### GET main image
