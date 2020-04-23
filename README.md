@@ -20,6 +20,10 @@ Previous request with minimal params:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json
 
+To GET first paragraph of an article:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=Belgrade&prop=extracts&format=json&exintro=1
+
 ### Search articles
 
 To GET first 10 search results with extract and thumbnail image (`prop=extracts|pageimages`). Results is HTML by default, but we want `json` format:
