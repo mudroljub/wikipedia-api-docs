@@ -6,7 +6,7 @@ Quick intro:
 
 - All client requests should contain `&origin=*` because of CORS. 
 - Search term should be capitalize (`Tori Amos` not `tori amos`) if multiple words.
-- You could request any wiki language you like
+- You could request any wiki language you like (for example sh.wikipedia.org or de.wikipedia.org)
 
 ## Articles
 
