@@ -8,6 +8,15 @@ Quick intro:
 - Search term should be capitalize (`Tori Amos` not `tori amos`) if multiple words.
 - You could request any wiki language you like (for example: `sh.wikipedia.org` or `de.wikipedia.org`)
 
+* [Articles](#articles)
+  + [Get an article](#get-an-article)
+  + [Search articles](#search-articles)
+* [Images](#images)
+  + [GET main image](#get-main-image)
+  + [GET all images from the article](#get-all-images-from-the-article)
+  + [Search images](#search-images)
+* [Quotes](#quotes)
+
 ## Articles
 
 ### Get an article
