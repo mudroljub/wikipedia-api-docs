@@ -57,7 +57,7 @@ If you have problems, append `&origin=*` at the end of the route.
 
 ## Images
 
-### GET main image
+### GET the main image
 
 To get source of the main image of the article:
 
@@ -69,7 +69,7 @@ To get all images from the article:
 
 [`https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json`](https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=images&format=json)
 
-### Search images
+### Search free images
 
 To GET first 20 image files (`gsrnamespace=6`) from Wikimedia Commons with the term "Belgrade" in the filename (`gsrsearch=intitle:Belgrade`). Requested thumbnail size is 250px (`pithumbsize=250`):
 
