@@ -13,9 +13,9 @@ Quick intro:
   + [Get an article](#get-an-article)
   + [Search articles](#search-articles)
 * [Images](#images)
-  + [GET main image](#get-main-image)
+  + [GET the main image](#get-the-main-image)
   + [GET all images from the article](#get-all-images-from-the-article)
-  + [Search images](#search-images)
+  + [Search free images](#search-free-images)
 * [Quotes](#quotes)
 
 ## Articles
