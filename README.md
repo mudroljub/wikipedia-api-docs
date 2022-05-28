@@ -28,7 +28,7 @@ To GET full article for the requested title (`titles=belgrade`), with images and
 
 Previous request with minimal params:
 
-https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json
+[`https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json`](https://en.wikipedia.org/w/api.php?action=query&titles=belgrade&prop=extracts&format=json)
 
 To GET first paragraph of an article:
 
