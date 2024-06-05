@@ -1,6 +1,6 @@
 # Wikipedia API docs
 
-Wikipedia API examples. For advanced use see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
+Wikipedia API examples. For advanced usage see [Official Mediawiki API documentation](https://www.mediawiki.org/wiki/API:Main_page)
 
 Quick intro: 
 
